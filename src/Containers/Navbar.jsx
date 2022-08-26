@@ -4,7 +4,7 @@ import NavBtns from "./Navigation";
 
 const Navbar = () => {
   return (
-    <Center maxW={"1024px"} bg="white" height={"60px"}>
+    <Center w={"1280px"} bg="white" h={"60px"}>
       <Logo />
       <Spacer />
       <NavBtns />

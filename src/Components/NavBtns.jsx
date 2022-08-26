@@ -1,5 +1,5 @@
 import { Grid, GridItem, Button } from "@chakra-ui/react";
-import navBtns from "./Utils/dataLists/NavBtns";
+import navBtns from "./Utils/DataLists/NavBtns";
 
 const Navigation = () => (
   <Grid templateColumns="repeat(2, auto)" gap={2}>
