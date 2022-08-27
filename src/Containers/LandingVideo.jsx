@@ -17,6 +17,7 @@ const LandingVideo = () => {
 
   return (
     <Center
+      userSelect={"none"}
       onClick={() => {
         setOverlay(
           <ModalOverlay

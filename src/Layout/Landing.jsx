@@ -1,12 +1,14 @@
-import { Center } from "@chakra-ui/react";
+import { Center, Grid } from "@chakra-ui/react";
 import UpperLanding from "../Containers/UpperLanding";
 import LowerLanding from "../Containers/LowerLanding";
 
 const Landing = () => {
   return (
-    <Center flexDirection={"column"} mt={"80px"}>
-      <UpperLanding />
-      <LowerLanding />
+    <Center flexDirection={"column"}>
+      <Grid rowGap={9}>
+        <UpperLanding />
+        <LowerLanding />
+      </Grid>
     </Center>
   );
 };
