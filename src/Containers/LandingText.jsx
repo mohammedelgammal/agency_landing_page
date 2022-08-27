@@ -4,12 +4,10 @@ import {
   Text,
   Button,
   Center,
-  Image,
   LinkBox,
   LinkOverlay,
 } from "@chakra-ui/react";
-import clutchImage from "../dist/imgs/clutch-logo.webp";
-import fiveStarImage from "../dist/imgs/5-star.png";
+import ClutchReview from "../Components/ClutchReview";
 
 const LandingText = () => {
   return (
@@ -29,24 +27,12 @@ const LandingText = () => {
         </Button>
       </Center>
       <Stack direction={"row"} spacing={5}>
-        <Center flexDirection={"column"}>
-          <LinkBox>
-            <LinkOverlay href="/">
-              <Image w="100px" src={fiveStarImage} alt="five-star review" />
-              <Image
-                mt={"10px"}
-                w="100px"
-                src={clutchImage}
-                alt="clutch review"
-              />
-            </LinkOverlay>
-          </LinkBox>
-        </Center>
+        <ClutchReview />
         <Center h="100%" alignItems={"start"}>
           <LinkBox>
             <LinkOverlay>
               <Text fontWeight={"bold"} color={"blackAlpha.600"}>
-                Read our reviews <br /> on Clutch
+                Read our reviews <br /> on Clutch.com
               </Text>
             </LinkOverlay>
           </LinkBox>
