@@ -9,13 +9,8 @@ const ShowcaseGrid = () => (
       gap={5}
     >
       {images.map((image, index) => (
-        <Center w={"700px"}>
-          <Image
-            boxShadow={"2xl"}
-            key={index}
-            src={image.src}
-            alt={image.alt}
-          />
+        <Center key={index} w={"700px"}>
+          <Image boxShadow={"2xl"} src={image.src} alt={image.alt} />
         </Center>
       ))}
     </Grid>

@@ -3,6 +3,7 @@ import Header from "./Header";
 import Landing from "./Landing";
 import Showcase from "./Showcase";
 import Problem from "./Problem";
+import Approach from "./Approach";
 
 const Layout = () => {
   return (
@@ -12,6 +13,7 @@ const Layout = () => {
         <Landing />
         <Showcase />
         <Problem />
+        <Approach />
       </Grid>
     </>
   );
