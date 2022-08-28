@@ -1,5 +1,5 @@
 import { Center } from "@chakra-ui/react";
-import content from "./Utils/DataLists/showcaseContent";
+import content from "./Utils/DataLists/showcaseText";
 import Text from "./Text";
 
 const ShowcaseText = () => {
