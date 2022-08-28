@@ -1,5 +1,11 @@
 import { Center, LinkBox, LinkOverlay, GridItem, Text } from "@chakra-ui/react";
-import navList from "./Utils/DataLists/navbar";
+
+const navList = [
+  { text: "About", link: "about" },
+  { text: "Use cases", link: "use-cases" },
+  { text: "Product types", link: "products" },
+  { text: "For builders", link: "builders" },
+];
 
 const NavList = () => (
   <>
