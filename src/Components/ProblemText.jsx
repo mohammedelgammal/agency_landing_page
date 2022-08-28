@@ -1,5 +1,5 @@
 import { Center } from "@chakra-ui/react";
-import content from "./Utils/DataLists/problemContent";
+import content from "./Utils/DataLists/problemsContent";
 import Text from "../Components/Text";
 
 const ProblemText = () => {
